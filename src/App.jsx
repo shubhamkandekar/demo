@@ -1,7 +1,7 @@
 import  { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:8080'); // Replace <YOUR_LOCAL_IP> with your IP address
+const socket = io('https://driverse.onrender.com'); // Replace <YOUR_LOCAL_IP> with your IP address
 
 function App() {
   const [myUserId, setMyUserId] = useState('');
