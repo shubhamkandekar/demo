@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:8080"); // Replace with your server URL
+const socket = io("https://driverse.onrender.com"); // Replace with your server URL
 
 let peerConnection;
 
